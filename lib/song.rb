@@ -10,7 +10,7 @@ class Song
     file = file_name.split(" - ")
     artist = Artist.new(file[0])
     song = self.new(file[1])
-    song.artist.name = @artist
+    song.artist = artist
   end
   
     
