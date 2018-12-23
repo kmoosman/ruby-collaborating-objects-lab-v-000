@@ -11,8 +11,6 @@ class Song
     artist = file[0]
     song_name = file[1]
     song = self.new(song_name)
-    song.artist_name = artist
-    song
     
   end
   
