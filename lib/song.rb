@@ -11,6 +11,7 @@ class Song
     artist = Artist.new(file[0])
     song = self.new(file[1])
     song.artist = artist
+    artist.song = self
     song
   end
   
